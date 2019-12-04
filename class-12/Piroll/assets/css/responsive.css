@@ -1,0 +1,105 @@
+@media only screen and (max-width : 767px) {
+    .navbar-light {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #000;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+    }
+    .single-slider-item {
+        height: 100%;
+        padding-bottom: 100px;
+        padding-top: 170px;
+    }
+    .slider-text h1 {
+        font-size: 25px;
+    }
+    .home-slider .owl-prev, .home-slider .owl-next {
+        top: auto;
+        height: 40px;
+        width: 40px;
+        font-size: 25px !important;
+        transform: translateY(0%);
+        bottom: 0;
+    }
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pb-60 {
+        padding-bottom: 10px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+    .section-header h2 {
+        font-size: 25px;
+    }
+    .skill-content h3 {
+        font-size: 15px;
+        margin: 0 0 15px;
+    }
+    .section-header {
+        margin-bottom: 30px;
+    }
+    .video-content {
+        height: 320px;
+    }
+    .service-card h3 {
+        font-size: 16px;
+    }
+    .feedback-text {
+        font-size: 18px;
+    }
+    .single-feedback .name {
+        font-size: 15px;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer ul {
+        margin: 15px 0 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .slider-text h1 {
+        font-size: 30px;
+    }
+    .ptb-100 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .pb-60 {
+        padding-bottom: 40px;
+    }
+    .pt-100 {
+        padding-top: 80px;
+    }
+    .pb-70 {
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    .single-counter p {
+        font-size: 12px;
+    }
+    .service-card h3 {
+        font-size: 16px;
+    }
+    .team-caption h3 {
+        font-size: 16px;
+    }
+}
+

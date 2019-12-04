@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Sorting Portfolio</title>
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome CSS -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!-- Style CSS -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    
+    <body>   
+ 
+        <section id="portfolio" class="portfolio"> 
+            <div class="container"> 
+                <div class="row"> 
+                    <div class="sorting-menu">
+                        <ul> 
+                            <li class="filter" data-filter="all">All</li>
+                            <li class="filter" data-filter=".web">Web</li>
+                            <li class="filter" data-filter=".ui">UI</li>
+                            <li class="filter" data-filter=".branding">Branding</li>
+                            <li class="filter" data-filter=".ux">UX</li>
+                            <li class="filter" data-filter=".wp">Wordpress</li>
+                        </ul>
+                    </div>
+                    <!-- /.sorting-menu -->
+                    
+                    <div id="Container" class="project-items">
+                        <div class="col-sm-6 col-md-4 mix web"> 
+                            <div class="single-project">
+                                <img src="img/project-img1.jpg" alt="Project Image">
+                            </div>
+                        </div>
+               
+                        <div class="col-sm-6 col-md-4 mix ui wp"> 
+                            <div class="single-project">
+                                <img src="img/project-img2.jpg" alt="Project Image">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-4 mix ui"> 
+                            <div class="single-project">
+                                <img src="img/project-img3.jpg" alt="Project Image">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-4 mix ux"> 
+                            <div class="single-project">
+                                <img src="img/project-img4.jpg" alt="Project Image">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-4 mix wp ux"> 
+                            <div class="single-project">
+                                <img src="img/project-img5.jpg" alt="Project Image">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-4 mix web"> 
+                            <div class="single-project">
+                                <img src="img/project-img6.jpg" alt="Project Image">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-6 mix branding"> 
+                            <div class="single-project">
+                                <img src="img/project-img7.jpg" alt="Project Image">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-6 mix branding"> 
+                            <div class="single-project">
+                                <img src="img/project-img8.jpg" alt="Project Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+   
+        
+      
+        
+        <!-- Latest jQuery -->
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Mixitup JS -->
+        <script src="js/jquery.mixitup.min.js"></script>
+ 
+        <script type="text/javascript"> 
+            // PROJECTS PORTFOLIO
+            $('#Container').mixItUp();
+            // END PROJECTS PORTFOLIO
+        </script>
+    </body>
+</html>
+
+ 
